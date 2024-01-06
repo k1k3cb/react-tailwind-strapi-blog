@@ -1,16 +1,12 @@
-import Navbar from "./components/Navbar";
+import { Blogs } from './components';
+import Navbar from './components/Navbar';
 
 const App = () => {
-	return(
-	<div>
-		
-		<Navbar/>
-
+	return (
+		<div>
+			<Navbar />
+			<Blogs />
 		</div>
-		
-	
-	
-	
 	);
 };
 
