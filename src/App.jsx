@@ -1,11 +1,11 @@
-import { Blogs } from './components';
-import Navbar from './components/Navbar';
+import { Blogs, Navbar, Footer } from './components';
 
 const App = () => {
 	return (
 		<div>
 			<Navbar />
 			<Blogs />
+			<Footer />
 		</div>
 	);
 };
