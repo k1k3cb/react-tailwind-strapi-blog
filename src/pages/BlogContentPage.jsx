@@ -1,10 +1,10 @@
 import { BlogContent, Footer, Navbar } from '../components';
 
-const BlogContentPage = () => {
+const BlogContentPage = ({blogs}) => {
 	return (
 		<div>
 			<Navbar />
-			<BlogContent />
+			<BlogContent blogs={blogs}/>
 			<Footer />
 		</div>
 	);

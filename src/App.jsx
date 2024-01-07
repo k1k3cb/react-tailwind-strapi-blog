@@ -9,12 +9,16 @@ const App = () => {
 
 	if (loading) return <p>Loading..</p>;
 	if (error) return <p>Error!</p>;
-	console.log(data);
+	console.log('Data:', data);
+
 	return (
 		<div>
 			<Routes>
-				<Route path='/' element={<Homepage />}></Route>
-				<Route path='/blog/:id' element={<BlogContentPage />}></Route>
+				<Route
+					path='/'
+					element={<Homepage blogs={data ? data.data : []} />}
+				></Route>
+				<Route path='/blog/:id' element={<BlogContentPage blogs={data ? data.data : []} />}></Route>
 			</Routes>
 		</div>
 	);
