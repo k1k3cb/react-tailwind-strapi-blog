@@ -2,7 +2,8 @@ import { v4 } from 'uuid';
 
 export const BLOGS = [
 	{
-		id: v4(),
+		id: 1,
+		
 		title: 'Blog 1',
 		desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
 		coverImg:
@@ -15,7 +16,7 @@ export const BLOGS = [
 		authorDesc: 'Web Developer'
 	},
 	{
-		id: v4(),
+		id: 2,
 		title: 'Blog 2',
 		desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
 		coverImg:
@@ -28,7 +29,7 @@ export const BLOGS = [
 		authorDesc: 'Web Developer'
 	},
 	{
-		id: v4(),
+		id: 3,
 		title: 'Blog 3',
 		desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
 		coverImg:
